@@ -3,7 +3,7 @@ session_start();
 include('config.php');
 if (!isset($_SESSION['Enno']) )
 {
-    header("Location: result.php");
+    header("Location: part.php");
     exit();
 } 
 

@@ -23,7 +23,7 @@
         }
 
         if(isset($_SESSION["Enno"])) {
-            header('location:result.php');
+            header('location:part.php');
         } else {
             echo '<script>';
             echo 'alert("Invalid Email");';

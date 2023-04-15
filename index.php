@@ -4,7 +4,7 @@ session_start();
 
 if (isset($_SESSION['Enno']) && $_SESSION['Enno'] !== true) {
     // Redirect to home page or other authorized page
-    header("Location: result.php");
+    header("Location: part.php");
     exit();
 }
 
@@ -71,9 +71,9 @@ if (isset($_SESSION['Enno']) && $_SESSION['Enno'] !== true) {
 
             <br><br>
 
-            <h2> <marquee width="100%" direction="left" height="35px" style="color:red; font-size: 1.7rem;">
-            If your parents have not meet with the teachers in the PTM then you will be Not able to see the result.Please Contact Your Teachers
-            </marquee></h2>
+            <h3 width="100%" height="35px" style="color:aqua; font-size: 2.3rem;">
+            Bhagwan Mahavir Polytechnic 
+            </h3>
 
             <br>
 
